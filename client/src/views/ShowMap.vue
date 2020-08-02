@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div>
+        <div id="map_container">
             <baidu-map class="map" :center="center" :zoom="18" :scroll-wheel-zoom="true" :double-click-zoom="false">
                 <bm-point-collection
                         :points="points"
@@ -168,9 +168,12 @@
 
 
 <style>
+    #map_container{
+        height: 360px;
+    }
 
     .map{
-        height: 350px;
+        height: 100%;
         width: 100%;
     }
     .el-table .warning-row {
