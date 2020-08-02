@@ -22,12 +22,12 @@
                 <el-table-column
                         prop="area"
                         label="地区"
-                        width="100">
+                        width="150">
                 </el-table-column>
                 <el-table-column
                         prop="id"
                         label="节点ID"
-                        width="100">
+                        width="150">
                 </el-table-column>
                 <el-table-column
                         prop="lng"
@@ -42,17 +42,17 @@
                 <el-table-column
                         prop="db"
                         label="信号强度(db)"
-                        width="120">
+                        width="180">
                 </el-table-column>
                 <el-table-column
                         prop="state"
                         label="运行状态"
-                        width="100">
+                        width="180">
                 </el-table-column>
                 <el-table-column
                         prop="useTime"
                         label="使用时间(h)"
-                        width="100">
+                        width="150">
                 </el-table-column>
                 <!---这里功能还未开发-->
                 <el-table-column label="操作">
@@ -169,7 +169,7 @@
 
 <style>
     #map_container{
-        height: 360px;
+        height: 400px;
     }
 
     .map{
